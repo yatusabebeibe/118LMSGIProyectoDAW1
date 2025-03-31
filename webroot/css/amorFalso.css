@@ -8,8 +8,8 @@ body:has(div>#amorFalso:checked) {
     font-weight: 700;
     color: #222222;
 }
-body:has(div>#amorFalso:checked) * {cursor: url(/118LMSGIProyectoLMSGI/webroot/media/cursor.cur), auto;}
-body:has(div>#amorFalso:checked) a>* {cursor: url(/118LMSGIProyectoLMSGI/webroot/media/cursorLink.cur), auto;}
+body:has(div>#amorFalso:checked) * {cursor: url(../media/cursor.cur), auto;}
+body:has(div>#amorFalso:checked) a>* {cursor: url(../media/cursorLink.cur), auto;}
 body:has(div>#amorFalso:checked) h3+div>a>img {display: inline;}
 
 :root {
